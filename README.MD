@@ -2,7 +2,7 @@
 
 ## 1. Análise Crítica do Código Legado
 
-O código original apresentava problemas graves:
+O código original apresentava os seguintes graves problemas:
 
 - **Ausência de encapsulamento** — atributos públicos expõem dados internos.
 - **Baixa coesão** — uma única classe faz tudo: cálculo, resumo, etiqueta, promoções.
@@ -61,7 +61,7 @@ Essa organização facilita entender o fluxo mesmo sem documentação adicional.
 
 ## 5. Extensibilidade
 
-Graças ao uso de **Strategy + Factory + Imutabilidade**:
+Graças ao uso dos Design Patterns **Strategy + Factory + Imutabilidade**:
 
 - Adicionar novos fretes não exige mudar código existente.
 - Etiquetas podem ter novos formatos criando novos serviços.
